@@ -1,0 +1,56 @@
+body {
+  font-family:"メイリオ";
+  margin: 0;
+}
+#main_title  {
+  text-align:center;
+  color:white;
+  background-color:black;
+  padding:30px;
+  margin:0;
+  }
+ .sub_title {
+	text-align:center;
+  background-color:LightGrey;
+  color:white;
+  padding:15px;
+  margin:0;
+  }
+  .sub_detail {
+  min-height:250px;
+  width:720px; 
+  font-size:25px;
+  padding:20px 0;
+  margin:0 auto;
+  }
+#icon_img {
+  width:300px;
+  height:300px;
+  float:left;
+}
+#name {
+  width:420px;
+  height:300px;
+  float:left;
+}
+
+.label {
+  text-align:center;
+  color:white;
+  background-color:#ffdb5d;
+  font-size: 15px;
+  width:100px; 
+  border-radius:5px;
+  padding:10px;
+  margin:0px;
+}
+#name > .label {
+  margin-left: 20px;
+}
+.name_content {
+  text-align: center;
+  margin:20px 0px;
+}
+#comment {
+  clear: both;
+}
